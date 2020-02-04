@@ -18,6 +18,7 @@ body {
   font-weight: 400;
   color: #000;
   text-transform: none;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -79,6 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2px;
   padding: 0 21px;
   background-color: #000;
+  border: #000;
   color: #fff;
 }
 
@@ -112,6 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer-nav-content {
   display: flex;
   justify-content: center;
+  height: 415px;
   padding-top: 20px;
 }
 
@@ -153,3 +156,47 @@ h1, h2, h3, h4, h5, h6 {
   Footer Bottom
   =====================================
 */
+
+.footer-nav-bottom {
+  height: 49px;
+  background-color: #363738;
+  color: #c8cbcc;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.footer-nav-bottom-inner {
+  display: flex;
+  margin: 0 auto;
+  width: 1010px;
+}
+
+.footer-bottom-country {
+  float:left;
+  width: 210px;
+  padding-top: 13px;
+}
+
+.footer-bottom-country img {
+  height: 11px;
+  width: 15px;
+  margin-right: 8px;
+}
+
+.footer-bottom-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 49px;
+  width: 100%;
+}
+
+.footer-bottom-link-pointer {
+  cursor: pointer;
+}
+
+.footer-bottom-link-separator {
+  margin: 0 8px;
+  padding-right: 21px;
+}
