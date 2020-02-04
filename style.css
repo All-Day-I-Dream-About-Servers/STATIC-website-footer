@@ -1,0 +1,155 @@
+/*
+  =====================================
+  Standards
+  =====================================
+*/
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+  text-transform: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #000;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*
+  =====================================
+  Signup Bar
+  =====================================
+*/
+
+.signup-bar {
+  background-color: #ede734; 
+}
+
+.signup-bar-wrapper {
+  display: flex;
+  max-width: 960px;
+  padding: 40px 0 20px 0;
+  margin: 0 auto;
+}
+
+.signup-bar-div {
+  width: 50%;
+  padding: 0 15px;
+  height: 50px;
+}
+
+.signup-text {
+  width: 50%;
+  padding: 0 15px;
+  height: 50px;
+  font-size: 26px;
+  line-height: 24px;
+}
+
+.signup-btn-outline {
+  height: 50px;
+  width: 149.2px;
+  border: 1px solid #000;
+}
+
+.footer-signup-btn {
+  position: relative;
+  height: 50px;
+  width: 149.2px;
+  transform: translate(-3px, -3px);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 0 21px;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-signup-btn:hover {
+  color: #767677;
+}
+
+.footer-signup-btn:focus {
+  outline: none;
+}
+
+.footer-signup-btn-icon {
+  position: relative;
+  bottom: 3px;
+  float: right;
+  height: 16px;
+  width: 24px;
+}
+
+.footer-signup-btn-text {
+  float: left;
+}
+
+
+/*
+  =====================================
+  Footer Nav
+  =====================================
+*/
+
+.footer-nav-content {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.footer-nav-col {
+  flex-direction: column;
+  margin-top: 20px;
+  width: 182px;
+}
+
+.footer-nav-col-row {
+  margin-bottom: 20px;
+}
+
+.footer-nav-row {
+  font-size: 13px;
+  line-height: 23px;
+}
+
+.footer-fake-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer-nav-col h3 {
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 24px;
+}
+
+.footer-nav-col h4 {
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+
+
+/*
+  =====================================
+  Footer Bottom
+  =====================================
+*/
