@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Adidas website footer</title>
-    <link type="text/css" rel="stylesheet" href="style.css">
-  </head>
-  <body>
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const Footer = () => {
+  return (
     <div class="adidas-footer">
       <div class="signup-bar">
         <div class="signup-bar-wrapper">
@@ -73,7 +71,7 @@
       <div class="footer-nav-bottom">
         <div class="footer-nav-bottom-inner">
           <div class="footer-bottom-country">
-            <img src="https://adl-foundation.adidas.com/prod/v23.0.0/assets/flags/us.svg" alt="us flag">
+            <img src="https://adl-foundation.adidas.com/prod/v23.0.0/assets/flags/us.svg" alt="us flag" />
             USA
           </div>
           <div class="footer-bottom-links">
@@ -88,5 +86,7 @@
         </div>
       </div>
     </div>
-  </body>
-</html>
+  );
+}
+
+ReactDOM.render(<Footer />, document.getElementById('footer'));
